@@ -36,7 +36,7 @@ export const cssLanguages = ['css', 'less', 'postcss', 'sass', 'scss', 'stylus',
 
 export const jsLanguages = ['javascript', 'javascriptreact', 'reason', 'rescript', 'typescript', 'typescriptreact'];
 
-export const specialLanguages = ['vue', 'svelte'];
+export const specialLanguages = ['vue', 'svelte', 'rust'];
 
 // PORTING: https://github.com/tailwindlabs/tailwindcss-intellisense/blob/master/packages/tailwindcss-language-service/src/util/languages.ts
 export const languages = [...cssLanguages, ...htmlLanguages, ...jsLanguages, ...specialLanguages];
